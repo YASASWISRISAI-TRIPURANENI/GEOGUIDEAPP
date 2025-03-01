@@ -1,0 +1,60 @@
+name: geoguide_agent
+description: "AI-powered GeoGuide for travel planning, real-time navigation, AR, and voice assistance."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core & Services
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.12.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+  firebase_messaging: ^14.6.0
+
+  # Google Maps & Location Services
+  google_maps_flutter: ^2.5.0
+  google_maps_webservice: ^0.0.19
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+  flutter_polyline_points: ^1.0.0
+
+  # AI & Chatbot Services
+  dialogflow_flutter: ^1.0.0
+  speech_to_text: ^6.3.0
+  flutter_tts: ^3.7.0
+
+  # Augmented Reality (AR)
+  # Smartwatch Support
+  wear: ^1.1.0
+
+  # UI/UX Enhancements
+  provider: ^6.0.5
+  http: ^0.13.6
+  shared_preferences: ^2.2.2
+  flutter_local_notifications: ^16.3.0
+  intl: ^0.18.1
+
+  # Weather API
+  weather: ^3.0.0
+
+  # State Management & Utilities
+  flutter_bloc: ^8.1.3
+  get_it: ^7.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/audio/
