@@ -1,6 +1,6 @@
 # gecoguideagent
 
-A new Flutter project.
+main code is in lib just go to lib
 
 ## Getting Started
 
