@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600744631290",
+    "project_id": "travelguideaiplatform-3154a",
+    "storage_bucket": "travelguideaiplatform-3154a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600744631290:android:0b86265ab244870cd4e243",
+        "android_client_info": {
+          "package_name": "com.example.gecoguideagent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX3vvmeZn1VilCMvCTLoF3uSEVGkehYV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
